@@ -1,0 +1,51 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+    .container{
+        width: 980px;
+        margin: 0 auto;
+}
+
+.logo{
+    text-align: center;
+    margin: 14px 0;
+}
+h1{
+    color:red;   
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color:black;
+    font-size: 20px;
+    margin-top: 1px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+
+}
+img{
+    color:black
+}
+.active{
+    text-decoration: underline;
+}
+.product h2{
+    text-align: center;
+    padding: 22px 0;
+}
+.product-list{
+    display: flex;
+    justify-content: space-between;
+}
+.product-item{
+    width: 32%;
+}
+
+
