@@ -21,7 +21,7 @@ header{
   
 }
 .text {
-    color: #fdfdfd;
+    color: #000000;
     padding: 80px 20px;
     margin-bottom: 30px;
     font-family: "Merriweather";
@@ -38,7 +38,7 @@ header{
   
 }
 h1{
-    color:#fffa65;
+    color:#000000;
     text-align: center; 
     font-size: 40px;
     font-weight:800px; 
@@ -46,7 +46,7 @@ h1{
 nav ul li a{
     text-decoration: none;
     font-weight: 600;
-    color:#fffa65;
+    color:#000000;
     font-size: 20px;
     margin-top: 2px;
     line-height: 40px;
