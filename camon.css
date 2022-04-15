@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Merriweather:ital,wght@1,400;1,700&family=Roboto+Condensed&display=swap');
+
+html {
+    background-color: #FFFFCC;
+    }
+
+body {
+    font-family: "Roboto Mono", monospace;
+    color: #0a0a23;
+    font-size: 18px;
+    padding: 1em;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 5vw;
+    }
+
+html,body {
+    height: 90%;
+    }
+
+body{
+    margin: 0;
+    }
+
+h1,p {
+    text-align: left;
+    }
+
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+      
+footer {
+    font-size: 1em;
+    }
