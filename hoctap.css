@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Merriweather:ital,wght@1,400;1,700&family=Roboto+Condensed&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #FFFFCC;
+    font-family: "Roboto Mono", monospace;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
+header{
+    height: 100px;
+    background: #FFFF66;
+    margin-bottom: 1px;
+}
+header img{
+    padding-left: 35px; 
+}
+nav{
+    height: 35px;
+    background: #0099FF;
+    margin-bottom: 5px;
+
+}
+nav .menu ul{
+    list-style: none;
+}
+nav .menu ul li{
+    float: left;
+    line-height: 35px;
+    padding: 0 15px;
+}
+nav .menu ul li a{
+    color: #FFFFCC;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+nav .search{
+    line-height: 35px;
+    float: right;
+    padding-right: 55px;
+}
+h2{
+    text-align: center;
+    color: #FFFFCC;
+    font-size: 30px;
+    text-transform: uppercase;
+    background: #0099FF;
+    height: 35px;
+}
+table, th, td, h1 {
+    border:2px black;
+    margin: 10px auto;
+    border: solid;
+}
+ul li a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 30px;
+    margin-top: 2px;
+    line-height: 40px;
+    text-align: center;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+}
+iframe{
+    padding-top: 15px;
+}
