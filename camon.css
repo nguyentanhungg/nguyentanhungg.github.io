@@ -12,16 +12,12 @@ body {
     line-height: 1.4;
     text-align: center;
     margin-top: 5vw;
-    }
-
-html,body {
-    height: 90%;
-    }
-
-body{
     margin: 0;
     }
 
+html,body {
+    height: 80%;
+    }
 h1,p {
     text-align: left;
     }
