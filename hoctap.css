@@ -13,11 +13,7 @@ html{
     margin: 0 auto;
     text-align: center;
 }
-header{
-    height: 100px;
-    background: #FFFF66;
-    margin-bottom: 1px;
-}
+
 header img{
     padding-left: 35px; 
 }
