@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Merriweather:ital,wght@1,400;1,700&family=Roboto+Condensed&display=swap');
 
 html {
-    background-color: #FFFFCC;
+    background-color: #d2d2d1;
     }
-
+img{
+    width: 10%;
+    padding-bottom: 50px;
+}
 body {
     font-family: "Roboto Mono", monospace;
     color: #0a0a23;
@@ -30,7 +33,6 @@ h1,p {
     align-items: center;
     justify-content: center;
     }
-      
 footer {
     font-size: 1em;
     }
