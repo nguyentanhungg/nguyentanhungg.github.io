@@ -4,23 +4,55 @@
     <meta charset="UTF-8">
     <title>Trang Chủ</title>
     <link rel="stylesheet" href="style.css">
+    <link href="menu.css" rel="stylesheet">
     <link rel="icon" href="https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="banner">
-            <div class="navbar">
-                <img src=" https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" class="logo">
-                <ul>
+    <header id="topnav">
+        <div class="logo-box">
+            <a href="index.html">
+                <img src=" https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" class="logo" width="80px">
+            </a>
+        </div>
+
+        <div class="container">
+            <a href="#" class="logo-mobile">
+                <img src=" https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" class="logo" width="10%">
+            </a>
+            <div class="menu-extras">
+                <div class="menu-item">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle">
+                        <div class="lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <!-- End mobile menu toggle-->
+                </div>
+            </div>
+
+            <div id="navigation">
+
+                <!-- Navigation Menu-->
+                <ul class="navigation-menu">
+
                     <li><a href="https://nguyentanhungg.github.io/">Trang chủ</a></li>
-                    <li><a href="https://nguyentanhungg.github.io/thongtincanhan">Thông tin cá nhân</a></li>
+                    <li><a href="https://nguyentanhungg.github.io/thongtincanhan">Thông Tin Cá Nhân</a></li>
                     <li><a href="https://nguyentanhungg.github.io/hoctap">Học Tập</a></li>
                 </ul>
+                <!-- End navigation menu-->
             </div>
+        </div>
+    </header>
+    <slide>
+        <div class="banner">
+            
             <div class="banner-text">
-                <h1>Hello <i class='far fa-hand-peace'></i></h1>
-                <p>Chào mừng các bạn đến với trang web của tôi <i class="fa-solid fa-heart"></i></p>
+                <h1>Hi  <i class='far fa-hand-peace'></i> I'm Darros</h1>
+                <p>I'm a Designer <i class="fa-solid fa-heart"></i></p>
                 
             </div>
             <div class="search-box">
@@ -32,12 +64,13 @@
             <h1> <a href="#"><i class='far fa-hand-point-up'></i></a></h1>
            
         </div>
-    </header>
+    </slide>
     <section>
         <div id="trangchu">
             <div class="title-text">
                 <img src="https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" alt="">
                 <h2>Trang Chủ</h2>
+                <p>Nha Trang 6 ngày 6 đêm</p>
             </div>
             <div class="trangchu-box">
                 <div class="trangchu-text">
@@ -80,6 +113,27 @@
                     <p>Đôi khi chúng ta phải chọn điều buồn nhất vì đó là điều tốt nhất cho tất cả ...</p>
                 </div>
             </div>
+            <div class="trangchu-box">
+                
+                <div class="trangchu-text">
+                    <h2>Nha Trang <i class="fa-solid fa-earth-asia"></i>
+                    </h2>
+                    <p>Cuộc sống này ngắn ngủi lắm, nên đừng để những nuối tiếc, phiền muộn của quá khứ làm bạn quên đi những niềm vui của thực tại...</p>
+                </div>
+                <div class="trangchu img">
+                    <img src="https://github.com/nguyentanhungg/anh/blob/main/nhatrang3.jpg?raw=true" alt="">
+                </div>
+            </div>
+            <div class="trangchu-box">
+                <div class="trangchu img">
+                    <img src="https://github.com/nguyentanhungg/anh/blob/main/nhatrang4.jpg?raw=true" alt="">
+                </div>
+                <div class="trangchu-text">
+                    <h2>Nha Trang <i class="fa-solid fa-earth-asia"></i>
+                    </h2>
+                    <p>Bất kể hôm nay bạn trải qua điều gì, chuyện vui hay chuyện buồn, gặp gỡ hay chia ly. Thì đó cũng là sự sắp đặt của cuộc đời này rồi.</p>
+                </div>
+            </div>
             <h3><i class="fa-solid fa-heart"></i></h3>
             <div class="trangchu-box">
                 <div class="trangchu img2">
@@ -117,7 +171,7 @@
                 <a href="https://github.com/nguyentanhungg "target="_blank"><i class='fab fa-github'></i></a>
             </div>
             <div class="footer-giua">
-                @ 2022 <a href="https://nguyentanhungg.github.io/" target="_blank">NguyenTanHung</a>
+                © 2022 Design By. <a href="https://nguyentanhungg.github.io/" target="_blank">NguyenTanHung</a>
             </div>
         </div>
     </footer>
