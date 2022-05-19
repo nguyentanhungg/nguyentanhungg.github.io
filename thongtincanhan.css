@@ -10,47 +10,13 @@
     height: 800px;
     
 }
-.navbar{
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo{
-    width: 150px;
-    cursor: pointer;
-}
-.navbar ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
-}
-.navbar ul li a{
-    text-decoration: none;
-    color: rgba(4, 4, 4, 0.997);
-    text-transform: uppercase;
-    font-size: 26px;
-    font-family: 'Bangers';
-    padding: 9px 19px;
-    background: transparent;
-    border-radius: 25px;
-}
-.navbar ul li a:hover{
-    background: rgb(96, 204, 152);
-    color: #fff;
-    border-radius: 25px;
-    transition: 0.6s ease;
-}
 .banner-text{
     text-align: center;
     color: #000;
-    padding-top: 50px;
+    padding-top: 200px;
 }
 .banner-text h1{
-    font-size: 150px;
+    font-size: 80px;
     font-family: 'Kaushan Script';
 }
 .banner-text p{
@@ -213,6 +179,9 @@ h1 a i:hover{
 .links a:nth-child(4){
     color: #021e25;
 }
+
+
+
 
 
 
