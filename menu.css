@@ -52,6 +52,22 @@ p{
     position: relative;
     margin: 0 5px;
 }
+#topnav .navigation-menu > li >a::after{
+    content: "";
+    height: 4px;
+    width: 0px;
+    background: #00b0ff;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    transition: all 0.5s ease-in-out;
+    top: 60px;
+    border-radius: 25px;
+}
+#topnav .navigation-menu >li > a:hover:after{
+    width: 80%;
+    
+}
 .navigation-menu{
     float: right;
 }
@@ -159,7 +175,7 @@ p{
 }
 
 #topnav .navbar-toggle.open span:hover {
-    background-color: #00b0ff;
+    background-color: #000;
 }
 
 #topnav .navbar-toggle:hover,
@@ -264,7 +280,7 @@ p{
     }
 
     #topnav .navigation-menu > li .submenu li a:hover,#topnav .navigation-menu .has-submenu .submenu > li:hover > a {
-        color: #00b0ff;
+        color: #000;
     }
     #topnav .navbar-toggle,#topnav .logo-mobile {
         display: none;
@@ -273,10 +289,10 @@ p{
         display: block !important;
     }
     #topnav .navigation-menu > li:hover > a {
-        color: #00b0ff !important;
+        color: #000 !important;
     }
     #topnav .navigation-menu > li:hover > .menu-arrow {
-        border-color: #00b0ff;
+        border-color: #000;
     }
     #topnav.scroll-active .navigation-menu > li > a {
         padding-top: 25px;
