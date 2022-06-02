@@ -9,44 +9,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
-    <header id="topnav">
-        <div class="logo-box">
-            <a href="index.html">
-                <img src=" https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" class="logo" width="80px">
-            </a>
-        </div>
-
-        <div class="container">
-            <a href="#" class="logo-mobile">
-                <img src=" https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" class="logo" width="10%">
-            </a>
-            <div class="menu-extras">
-                <div class="menu-item">
-                    <!-- Mobile menu toggle-->
-                    <a class="navbar-toggle">
-                        <div class="lines">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </a>
-                    <!-- End mobile menu toggle-->
-                </div>
+      <!-- Menu-->
+      <header id="wrapper">
+        <div id="topnav">
+            
+            <div id="toggle">
+                <i class="fa-solid fa-bars"></i>
             </div>
-
-            <div id="navigation">
-
-                <!-- Navigation Menu-->
-                <ul class="navigation-menu">
-
-                    <li><a href="https://nguyentanhungg.github.io/">Trang chủ</a></li>
+            <img src=" https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" class="logo" width="90px">
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="https://nguyentanhungg.github.io/">Trang Chủ</a></li>
                     <li><a href="https://nguyentanhungg.github.io/thongtincanhan">Thông Tin Cá Nhân</a></li>
                     <li><a href="https://nguyentanhungg.github.io/hoctap">Học Tập</a></li>
                 </ul>
-                <!-- End navigation menu-->
-            </div>
+            </nav>
         </div>
     </header>
+    <script>
+        $(document).ready(function(){
+            $('#toggle').click(function(){
+                $('nav').slideToggle();
+            });
+
+        })
+    </script>
+          <!-- Search-->
     <slide>
         <div class="banner">
             
@@ -65,6 +53,7 @@
            
         </div>
     </slide>
+      <!-- Section-->
     <section>
         <div id="trangchu">
             <div class="title-text">
@@ -74,7 +63,7 @@
             </div>
             <div class="trangchu-box">
                 <div class="trangchu-text">
-                    <h2>Nha Trang <i class='fas fa-globe-africa'></i>
+                    <h2>Nguyễn Tấn Hưng <i class='fas fa-globe-africa'></i>
                     </h2>
                     <p> Rồi đến lúc bạn sẽ nhận ra, thứ mà chúng ta đã cố gắng theo đuổi, đến cuối cùng cũng không thuộc về bạn..</p>
                 </div>
@@ -87,7 +76,7 @@
                     <img src="https://github.com/nguyentanhungg/anh/blob/main/nhatrang7.jpg?raw=true" alt="">
                 </div>
                 <div class="trangchu-text">
-                    <h2>Nha Trang <i class="fa-solid fa-earth-americas"></i>
+                    <h2>Nguyễn Tấn Hưng <i class="fa-solid fa-earth-americas"></i>
                     </h2>
                     <p> Đến một ngày nào đó chúng ta sẽ nhận ra rằng, đôi khi buông tay hay nắm tay cũng chẳng có gì khác biệt.</p>
                 </div>
@@ -95,7 +84,7 @@
             </div>
             <div class="trangchu-box">
                 <div class="trangchu-text">
-                    <h2>Nha Trang <i class="fa-solid fa-earth-asia"></i>
+                    <h2>Nguyễn Tấn Hưng <i class="fa-solid fa-earth-asia"></i>
                     </h2>
                     <p>Đừng vội vàng đặt niềm tin và hi vọng vào ai đó khi chưa biết vị trí của mình ở đâu trong họ.</p>
                 </div>
@@ -108,7 +97,7 @@
                     <img src="https://github.com/nguyentanhungg/anh/blob/main/nhatrang9.jpg?raw=true" alt="">
                 </div>
                 <div class="trangchu-text">
-                    <h2>Nha Trang <i class="fa-solid fa-earth-asia"></i>
+                    <h2>Nguyễn Tấn Hưng <i class="fa-solid fa-earth-asia"></i>
                     </h2>
                     <p>Chúng ta sau cùng, ai cũng sẽ trưởng thành và có một chân trời nơi mình thuộc về,
                         Bởi vì đã từng thương một người hết lòng hết dạ nên sau này có yêu ai cũng không còn đậm sâu nữa.</p>
@@ -116,7 +105,7 @@
             </div>
             <div class="trangchu-box">
                 <div class="trangchu-text">
-                    <h2>Nha Trang <i class="fa-solid fa-earth-asia"></i>
+                    <h2>Nguyễn Tấn Hưng <i class="fa-solid fa-earth-asia"></i>
                     </h2>
                     <p>Hạnh phúc là khi ta biết dừng lại đúng lúc. Không bước quá xa. Không đi quá sâu. Đừng xây nỗi buồn quá lớn. Đừng nuôi hy vọng quá nhiều.</p>
                 </div>
@@ -129,7 +118,7 @@
                     <img src="https://github.com/nguyentanhungg/anh/blob/main/nhatrang10.jpg?raw=true" alt="">
                 </div>
                 <div class="trangchu-text">
-                    <h2>Nha Trang <i class="fa-solid fa-earth-americas"></i>
+                    <h2>Nguyễn Tấn Hưng <i class="fa-solid fa-earth-americas"></i>
                     </h2>
                     <p> Thời gian trôi đi rất nhanh, buồn bã cũng hết một ngày, vui vẻ cũng hết một ngày.</p>
                 </div>
@@ -165,6 +154,7 @@
         </div>
         
     </section>
+          <!-- Footer-->
     <footer>
         <div id="footer">
             <div class="footer-logo">
