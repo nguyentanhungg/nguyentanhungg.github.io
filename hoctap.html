@@ -5,48 +5,37 @@
     <title>Học Tập</title>
     <link rel="stylesheet" href="hoctap.css">
     <link href="menu.css" rel="stylesheet">
+    <link href="footerr.css" rel="stylesheet">
     <link rel="icon" href="https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
-    <header id="topnav">
-        <div class="logo-box">
-            <a href="index.html">
-                <img src=" https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" class="logo" width="80px">
-            </a>
-        </div>
-
-        <div class="container">
-            <a href="#" class="logo-mobile">
-                <img src=" https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" class="logo" width="70px">
-            </a>
-            <div class="menu-extras">
-                <div class="menu-item">
-                    <!-- Mobile menu toggle-->
-                    <a class="navbar-toggle">
-                        <div class="lines">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </a>
-                    <!-- End mobile menu toggle-->
-                </div>
+    <!-- Menu-->
+    <header id="wrapper">
+        <div id="topnav">
+            
+            <div id="toggle">
+                <i class="fa-solid fa-bars"></i>
             </div>
-
-            <div id="navigation">
-
-                <!-- Navigation Menu-->
-                <ul class="navigation-menu">
-
-                    <li><a href="https://nguyentanhungg.github.io/">Trang chủ</a></li>
+            <img src=" https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" class="logo" width="90px">
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="https://nguyentanhungg.github.io/">Trang Chủ</a></li>
                     <li><a href="https://nguyentanhungg.github.io/thongtincanhan">Thông Tin Cá Nhân</a></li>
                     <li><a href="https://nguyentanhungg.github.io/hoctap">Học Tập</a></li>
                 </ul>
-                <!-- End navigation menu-->
-            </div>
+            </nav>
         </div>
     </header>
+    <script>
+        $(document).ready(function(){
+            $('#toggle').click(function(){
+                $('nav').slideToggle();
+            });
+
+        })
+    </script>
+      <!-- Search-->
     <slide>
         <div class="banner">
             <div class="banner-text">
@@ -64,6 +53,7 @@
            
         </div>
     </slide>
+      <!-- Section-->
     <section>
         <div id="trangchu">
             <div class="title-text">
@@ -87,6 +77,7 @@
         </div>
         
     </section>
+      <!-- Footer-->
     <footer>
         <div id="footer">
             <div class="footer-logo">
