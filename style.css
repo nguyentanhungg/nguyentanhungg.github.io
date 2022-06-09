@@ -1,111 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Calistoga&family=Dancing+Script:wght@700&family=Kaushan+Script&family=Maitree:wght@300&family=Signika:wght@600&family=Tapestry&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.banner{
-    background: linear-gradient(rgba(0, 0, 0, 0),rgba(97, 182, 235, 0.233)), url("https://github.com/nguyentanhungg/anh/blob/main/222.jpg?raw=true");
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(97, 182, 235, 0.233)), url("https://github.com/nguyentanhungg/anh/blob/main/222.jpg?raw=true");
     background-size: cover;
     background-position: center;
     height: 800px;
 }
-.banner-text{
+
+.banner-text {
     text-align: center;
     color: #000;
     padding-top: 270px;
 }
-.banner-text h1{
+
+.banner-text h1 {
     font-size: 80px;
     font-family: 'Calistoga', cursive;
 }
-.banner-text p{
+
+.banner-text p {
     font-size: 50px;
     font-family: 'Maitree', serif;
 }
-.banner-text p i{
+
+.banner-text p i {
     color: #f10e0e;
     font-size: 30px;
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 80px;
 }
-h1 a i{
+
+h1 a i {
     color: #000;
 }
-h1 a i:hover{
+
+h1 a i:hover {
     color: #fff;
     transition: 0.6s ease;
     transform: scale(1.1);
 }
-.search-box input{
-    border-radius: 30px;
-    color: #000;
-    border: 1px solid #0000007d;
-    border-right: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-.search-box{
-    width: 500px;
-    margin: 30px auto;
-}
-.search-box .example{
-    width: 500px;
-    height: 50px;
-    position: relative;
 
-}
-.search-box .example input{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 84%;
-    height: 100%;
-    padding: 10px 20px;
-    font-size: 18px;
-}
-.search-box .example button{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 80px;
-    height: 100%;
-    border-radius: 0 30px 30px 0;
-    background: #0ecff1;
-    font-size: 20px;
-    z-index: 1;
-    cursor: pointer;
-    border: 1px solid #0ecff1;
-    color: #fff;
-    border-left: none;
-}
-.search-box .example button:hover{
-    color: #000;
-    transition: 0.6s ease;
-    background: #edf10e;
-    border: none;
-}
+
 /*--sectinon--*/
-#trangchu{
+
+#trangchu {
     width: 100%;
     padding: 70px 0;
 }
-.title-text{
+
+.title-text {
     text-align: center;
     padding-bottom: 70px
 }
-.title-text img{
+
+.title-text img {
     margin: auto;
     width: 10%;
     padding-bottom: 40px;
 }
-.title-text h2{
+
+.title-text h2 {
     font-size: 60px;
     font-family: 'Bangers';
 }
-.trangchu-box{
+
+.trangchu-box {
     width: 80%;
     margin: auto;
     display: flex;
@@ -113,61 +79,72 @@ h1 a i:hover{
     align-items: center;
     text-align: center;
 }
-.trangchu-text{
+
+.trangchu-text {
     flex-basis: 50%;
 }
-.trangchu.img{
+
+.trangchu.img {
     flex-basis: 50%;
     margin: auto;
     margin-bottom: 5px;
 }
-.trangchu.img img{
+
+.trangchu.img img {
     width: 70%;
     border-radius: 12%;
     transition: 1s;
 }
-.trangchu.img img:hover{
+
+.trangchu.img img:hover {
     transform: scale(1.1);
 }
-.trangchu.img2{
+
+.trangchu.img2 {
     flex-basis: 33%;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
 }
-.trangchu.img2 img{
+
+.trangchu.img2 img {
     width: 85%;
     border-radius: 12%;
     transition: 1s;
 }
-.trangchu.img2 img:hover{
+
+.trangchu.img2 img:hover {
     transform: scale(1.1);
 }
-.trangchu-text h2{
+
+.trangchu-text h2 {
     text-align: left;
     margin-bottom: 10px;
     font-family: 'Tapestry';
     font-size: 30px;
 }
-.trangchu-text p{
+
+.trangchu-text p {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
     font-size: 25px;
     font-family: 'Dancing Script';
 }
-h3{
+
+h3 {
     text-align: center;
     padding: 20px 0;
     font-size: 60px;
     color: #f10e0e;
 }
-.trang{
+
+.trang {
     text-align: center;
     margin-top: 50px;
 }
-.trang a{
-    
+
+.trang a {
     font-size: 20px;
     background: #0891e6;
     color: #fff;
@@ -176,7 +153,8 @@ h3{
     border-radius: 50px;
     transition: 1s;
 }
-.trang a:hover{
+
+.trang a:hover {
     background: #edf10e;
     color: #000;
 }
