@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Trang Chủ</title>
     <link rel="stylesheet" href="style.css">
     <link href="menu.css" rel="stylesheet">
-    <link rel="icon" href="https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true"/>
+    <link href="footerr.css" rel="stylesheet">
+    <link rel="icon" href="https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
+
 <body>
-      <!-- Menu-->
-      <header id="wrapper">
+    <!-- Menu-->
+    <header id="wrapper">
         <div id="topnav">
-            
+
             <div id="toggle">
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -24,36 +28,32 @@
                     <li><a href="https://nguyentanhungg.github.io/hoctap">Học Tập</a></li>
                 </ul>
             </nav>
+            <!-- Search-->
+            <div class="icons">
+                <div class="fas fa-search" id="search-btn"></div>
+            </div>
+
+            <form class="search-form" action="https://nguyentanhungg.github.io/camon">
+                <input type="search" id="search-box" placeholder="Search..." required>
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
         </div>
     </header>
-    <script>
-        $(document).ready(function(){
-            $('#toggle').click(function(){
-                $('nav').slideToggle();
-            });
-
-        })
-    </script>
-          <!-- Search-->
+    <script src="script.js"></script>
+    <!-- Text-->
     <slide>
         <div class="banner">
-            
+
             <div class="banner-text">
-                <h1>Hi  <i class='far fa-hand-peace'></i> I'm Darros</h1>
+                <h1>Hi <i class='far fa-hand-peace'></i> I'm Darros</h1>
                 <p>I'm a Designer <i class="fa-solid fa-heart"></i></p>
-                
-            </div>
-            <div class="search-box">
-                <form class="example" action="https://nguyentanhungg.github.io/camon" >
-                    <input type="search" placeholder="Search...." required>
-                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
+
             </div>
             <h1> <a href="#"><i class='far fa-hand-point-up'></i></a></h1>
-           
+
         </div>
     </slide>
-      <!-- Section-->
+    <!-- Section-->
     <section>
         <div id="trangchu">
             <div class="title-text">
@@ -80,7 +80,7 @@
                     </h2>
                     <p> Đến một ngày nào đó chúng ta sẽ nhận ra rằng, đôi khi buông tay hay nắm tay cũng chẳng có gì khác biệt.</p>
                 </div>
-                
+
             </div>
             <div class="trangchu-box">
                 <div class="trangchu-text">
@@ -99,8 +99,7 @@
                 <div class="trangchu-text">
                     <h2>Nguyễn Tấn Hưng <i class="fa-solid fa-earth-asia"></i>
                     </h2>
-                    <p>Chúng ta sau cùng, ai cũng sẽ trưởng thành và có một chân trời nơi mình thuộc về,
-                        Bởi vì đã từng thương một người hết lòng hết dạ nên sau này có yêu ai cũng không còn đậm sâu nữa.</p>
+                    <p>Chúng ta sau cùng, ai cũng sẽ trưởng thành và có một chân trời nơi mình thuộc về, Bởi vì đã từng thương một người hết lòng hết dạ nên sau này có yêu ai cũng không còn đậm sâu nữa.</p>
                 </div>
             </div>
             <div class="trangchu-box">
@@ -122,7 +121,7 @@
                     </h2>
                     <p> Thời gian trôi đi rất nhanh, buồn bã cũng hết một ngày, vui vẻ cũng hết một ngày.</p>
                 </div>
-                
+
             </div>
             <div class="trang">
                 <a href=" # "><i class="fa-solid fa-angles-left"></i></a>
@@ -152,20 +151,20 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
-          <!-- Footer-->
+    <!-- Footer-->
     <footer>
         <div id="footer">
             <div class="footer-logo">
                 <img src="https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" alt="">
-                
+
             </div>
             <div class="links">
-                <a href=" https://www.facebook.com/TanHungOfficial2003/ "target="_blank"><i class='fab fa-facebook'></i></a>
-                <a href="https://www.instagram.com/darros_ne/"target="_blank"><i class='fab fa-instagram'></i></a>
-                <a href="https://www.youtube.com/channel/UCw8MFx-l2LxBWGi2koAW8Tw"target="_blank"><i class='fab fa-youtube'></i></a>
-                <a href="https://github.com/nguyentanhungg "target="_blank"><i class='fab fa-github'></i></a>
+                <a href=" https://www.facebook.com/TanHungOfficial2003/ " target="_blank"><i class='fab fa-facebook'></i></a>
+                <a href="https://www.instagram.com/darros_ne/" target="_blank"><i class='fab fa-instagram'></i></a>
+                <a href="https://www.youtube.com/channel/UCw8MFx-l2LxBWGi2koAW8Tw" target="_blank"><i class='fab fa-youtube'></i></a>
+                <a href="https://github.com/nguyentanhungg " target="_blank"><i class='fab fa-github'></i></a>
             </div>
             <div class="footer-giua">
                 © 2022 Design By. <a href="https://nguyentanhungg.github.io/" target="_blank">NguyenTanHung</a>
@@ -173,4 +172,5 @@
         </div>
     </footer>
 </body>
+
 </html>
