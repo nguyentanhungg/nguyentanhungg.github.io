@@ -1,16 +1,93 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="javascript.css">  
-        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>         
-    </head>
-    <body>
-        <h1>Test Javascript</h1>
-        <p id="demo">Thông tin cá nhân.</p>
-        <button type="button" onclick="ten()">Tên</button> 
-        <button type="button" onclick="ngaysinh()">Ngày Sinh</button> 
-        <button type="button" onclick="gioitinh()">Giới Tính</button> 
-        <script src="javascript.js"></script>           
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="javascript.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="trai">
+            <form id="output">
+                <div class="ten">
+                    <label for="ten">Họ và Tên:</label>
+                    <input type="text" id="nhapten">
+                </div>
+                <div class="email">
+                    <label for="name">Email:</label>
+                    <input type="text" id="nhapemail">
+                </div>
+                <div class="gioitinh">
+                    <label for="gioitinh">Giới tính:</label>
+                    <div class="chongioitinh">
+                        <div class="nam">
+                            <input type="radio" name="gioitinh" value="Nam" id="chongioitinh">
+                            <label for="nam">Nam</label>
+                        </div>
+                        <div class="nu">
+                            <input type="radio" name="gioitinh" value="Nữ" id="chongioitinh">
+                            <label for="nu">Nữ</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="quoctich">
+                    <label for="quoctich">Quốc Tịch:</label>
+                    <select name="chonquoctich" id="chonquoctich">
+                
+                    <option selected="selected"> </option>
+                
+                    <option value="Viet Nam">Viet Nam</option>
+                
+                    <option value="Australia">Australia</option>
+                
+                    <option value="Campuchia">Campuchia</option>
+                
+                    <option value="Lao">Lao</option>
+                
+                    <select>
+                
+                    </div>
+                <div class="sothich">
+                    <label for="sothich">Sở thích:</label>
+                            <div class="chonsothich">
+                                <div class="dulich">
+                                    <input type="checkbox" name="sothich" value="Du lịch">
+                                    <label for="dulich">Du Lịch</label>
+                                </div>
+                                <div class="laptrinh">
+                                    <input type="checkbox" name="sothich" value="Lập Trình">
+                                    <label for="laptrinh">Lập Trình</label>
+                                </div>
+                                <div class="thethao">
+                                    <input type="checkbox" name="sothich" value="Thể Thao">
+                                    <label for="thethao">Thể Thao</label>
+                                </div>
+                            </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Xác Nhận" id="submit">
+                    <input type="reset">
+                </div>
+                </div>
+                <div class="phai">
+                    <div class="hienthi">
+                        <p class="output-ten">Họ và Tên:</p>
+                        <p class="output-email">Email:</p>
+                        <p class="output-gioitinh">Giới tính:</p>
+                        <p class="output-quoctich">Quốc tịch:</p>
+                        <p class="output-sothich">Sở thích:</p>
+                    </div>
+                </div>
+            </from>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+
+</body>
 </html>
-  
