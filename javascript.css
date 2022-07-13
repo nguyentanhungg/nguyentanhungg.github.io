@@ -18,7 +18,7 @@ h2{
     height: 500px;
     flex-basis: 50%;
     margin: auto;
-    background: rgb(125, 247, 44);
+    background: #e57335;
     display: block;
 }
 
@@ -72,7 +72,7 @@ button {
 .phai {
     height: 500px;
     flex-basis: 50%;
-    background: rgb(3, 238, 238);
+    background: #ffff00;
 }
 
 .hienthi {
