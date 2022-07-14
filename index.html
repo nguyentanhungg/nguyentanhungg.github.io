@@ -10,6 +10,7 @@
     <link rel="icon" href="https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
 
 </head>
 
@@ -30,7 +31,7 @@
                 </ul>
             </nav>
             <!-- Search-->
-            <div class="icons">
+            <div class="icons-search">
                 <div class="fas fa-search" id="search-btn"></div>
             </div>
 
@@ -39,34 +40,53 @@
                 <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
         </div>
-    </header>
-    <script src="script.js"></script>
-    <!-- Text-->
-    <slide>
-        <div class="banner">
-
-            <div class="banner-text">
-                <h1>Hi <i class='far fa-hand-peace'></i> I'm Darros</h1>
-                <p>I'm a Designer <i class="fa-solid fa-heart"></i></p>
-
+        <div class="backgroud">
+            <div class="light-dark ">
+                <i class="btn fas fa-moon " data-color="#24292D #e4e6eb #24292D #edf10e #242526 "></i>
             </div>
-            <h1> <a href="#"><i class='far fa-hand-point-up'></i></a></h1>
-
+            <div class="color-icon ">
+                <div class="icons ">
+                </div>
+                <div class="color-box ">
+                    <div class="color-switchers ">
+                        <button class="btn black active " data-color="#fff #101215 #dfe6e9 "></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Slider-->
+    <slide>
+        <div id="banner">
+            <div id="slider">
+                <img class="slide" src="https://github.com/nguyentanhungg/anh/blob/main/222.jpg?raw=true" stt="0">
+                <img class="slide" src="https://github.com/nguyentanhungg/anh/blob/main/333.jpg?raw=true" stt="1" style="display: none;">
+                <img class="slide" src="https://github.com/nguyentanhungg/anh/blob/main/444.jpg?raw=true" stt="2" style="display: none;">
+                <img class="slide" src="https://github.com/nguyentanhungg/anh/blob/main/555.jpg?raw=true" stt="3" style="display: none;">
+                <img class="slide" src="https://github.com/nguyentanhungg/anh/blob/main/666.jpg?raw=true" stt="4" style="display: none;">
+                <a href=" # " id="prev"> <i class="fa-solid fa-angle-left"></i></a>
+                <a href=" # " id="next"> <i class="fa-solid fa-angle-right"></i></a>
+                <div class="text">
+                    <div class="text-1">Hi, I am</div>
+                    <div class="text-2">Darros</div>
+                    <div class="text-3">I am a <span class="text-slider"></span></div>
+                </div>
+            </div>
         </div>
     </slide>
+
     <!-- Section-->
     <section>
         <div id="trangchu">
             <div class="title-text">
                 <img src="https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" alt="">
                 <h2>Trang Chủ</h2>
-                <p>Nha Trang 6 ngày 6 đêm</p>
             </div>
             <div class="trangchu-box">
                 <div class="trangchu-text">
-                    <h2>Nguyễn Tấn Hưng <i class='fas fa-globe-africa'></i>
-                    </h2>
-                    <p> Cuộc hành trình dài ngàn dặm bắt đầu từ một bước chân nhỏ bé – Lão Tử.</p>
+                    <h4>Chuyện Chúng Ta <i class='fas fa-globe-africa'></i></h4>
+                    <p> Vì cuộc đời là những chuyến đi, nên hãy cứ trải nghiệm khi còn có thể.</p>
+                    <a href=" https://nguyentanhungg.github.io/chuyenchungta/1.html" target="_blank" class="ctn">Xem Thêm</a>
                 </div>
                 <div class="trangchu img">
                     <img src="https://github.com/nguyentanhungg/anh/blob/main/21.jpg?raw=true" alt="">
@@ -77,17 +97,20 @@
                     <img src="https://github.com/nguyentanhungg/anh/blob/main/class.jpg?raw=true" alt="">
                 </div>
                 <div class="trangchu-text">
-                    <h2>Nguyễn Tấn Hưng <i class="fa-solid fa-earth-americas"></i>
-                    </h2>
-                    <p> Tuổi trẻ, chúng ta có thể thành công, có thể thất bại, có thể tự tin, có thể chùn bước, nhưng tuyệt đối không được từ bỏ.</p>
+                    <h4>Chuyện Chúng Ta <i class='fa-solid fa-earth-americas'></i></h4>
+                    <p> Ngoài chính bản thân mình ra, sẽ không có một ai có thể làm điểm tựa cho bạn.</p>
+                    <a href=" https://nguyentanhungg.github.io/chuyenchungta/2.html" target="_blank" class="ctn">Xem Thêm</a>
+
                 </div>
 
             </div>
             <div class="trangchu-box">
                 <div class="trangchu-text">
-                    <h2>Nguyễn Tấn Hưng <i class="fa-solid fa-earth-asia"></i>
-                    </h2>
-                    <p>Vì cuộc đời là những chuyến đi, nên hãy cứ trải nghiệm khi còn có thể.</p>
+                    <h4>Chuyện Chúng Ta <i class='fa-solid fa-earth-americas'></i></h4>
+
+                    <p>Rồi bạn sẽ nhận ra: người cần đến, rồi sẽ đến, người phải đi, rồi sẽ đi...</p>
+                    <a href=" https://nguyentanhungg.github.io/chuyenchungta/3.html" target="_blank" class="ctn">Xem Thêm</a>
+
                 </div>
                 <div class="trangchu img">
                     <img src="https://github.com/nguyentanhungg/anh/blob/main/nhatrang1.jpg?raw=true" alt="">
@@ -98,17 +121,21 @@
                     <img src="https://github.com/nguyentanhungg/anh/blob/main/nhatrang2.jpg?raw=true" alt="">
                 </div>
                 <div class="trangchu-text">
-                    <h2>Nguyễn Tấn Hưng <i class="fa-solid fa-earth-asia"></i>
-                    </h2>
-                    <p>Đôi khi chúng ta phải chọn điều buồn nhất vì đó là điều tốt nhất cho tất cả ...</p>
+                    <h4>Chuyện Chúng Ta <i class='fa-solid fa-earth-americas'></i></h4>
+
+                    <p>Nếu lỡ sau này có một ngày nào đó mình chán nhau, một ngày mà mình không còn háo hức mong chờ đến lúc gặp nhau nữa, ...</p>
+                    <a href=" https://nguyentanhungg.github.io/chuyenchungta/4.html" target="_blank" class="ctn">Xem Thêm</a>
+
                 </div>
             </div>
             <div class="trangchu-box">
 
                 <div class="trangchu-text">
-                    <h2>Nguyễn Tấn Hưng <i class="fa-solid fa-earth-asia"></i>
-                    </h2>
-                    <p>Cuộc sống này ngắn ngủi lắm, nên đừng để những nuối tiếc, phiền muộn của quá khứ làm bạn quên đi những niềm vui của thực tại...</p>
+                    <h4>Chuyện Chúng Ta <i class='fa-solid fa-earth-americas'></i></h4>
+
+                    <p>Tôi biết em đã phải cố gắng trong một thời gian rất dài, gánh gồng bao nhiêu là nỗi buồn và thất vọng, chịu đựng rất nhiều hiểu lầm và uất ức...</p>
+                    <a href=" https://nguyentanhungg.github.io/chuyenchungta/5.html" target="_blank" class="ctn">Xem Thêm</a>
+
                 </div>
                 <div class="trangchu img">
                     <img src="https://github.com/nguyentanhungg/anh/blob/main/nhatrang3.jpg?raw=true" alt="">
@@ -119,9 +146,11 @@
                     <img src="https://github.com/nguyentanhungg/anh/blob/main/nhatrang4.jpg?raw=true" alt="">
                 </div>
                 <div class="trangchu-text">
-                    <h2>Nguyễn Tấn Hưng <i class="fa-solid fa-earth-asia"></i>
-                    </h2>
-                    <p>Bất kể hôm nay bạn trải qua điều gì, chuyện vui hay chuyện buồn, gặp gỡ hay chia ly. Thì đó cũng là sự sắp đặt của cuộc đời này rồi.</p>
+                    <h4>Chuyện Chúng Ta <i class='fa-solid fa-earth-americas'></i></h4>
+
+                    <p>Tất cả mọi người có thể nói yêu bạn nhưng không phải ai cũng có thể chờ đợi bạn.</p>
+                    <a href=" https://nguyentanhungg.github.io/chuyenchungta/6.html" target="_blank" class="ctn">Xem Thêm</a>
+
                 </div>
             </div>
             <div class="trang">
@@ -133,22 +162,22 @@
             <h3><i class="fa-solid fa-heart"></i></h3>
             <div class="trangchu-box">
                 <div class="trangchu img2">
-                    <img src="https://github.com/nguyentanhungg/anh/blob/main/11.jpg?raw=true" alt="">
+                    <img src="https://i.pinimg.com/564x/31/b4/cc/31b4cc65f9dd1217c1a8d0e5cf143911.jpg" alt="">
                 </div>
                 <div class="trangchu img2">
-                    <img src="https://github.com/nguyentanhungg/anh/blob/main/12.jpg?raw=true" alt="">
+                    <img src="https://i.pinimg.com/564x/a7/47/95/a74795d152ea42580d7d1afb4d7ef806.jpg" alt="">
                 </div>
                 <div class="trangchu img2">
-                    <img src="https://github.com/nguyentanhungg/anh/blob/main/13.jpg?raw=true" alt="">
+                    <img src="https://i.pinimg.com/564x/4b/0c/2a/4b0c2a7f72237613774092a7b25a5b47.jpg" alt="">
                 </div>
                 <div class="trangchu img2">
-                    <img src="https://github.com/nguyentanhungg/anh/blob/main/14.jpg?raw=true" alt="">
+                    <img src="https://i.pinimg.com/564x/a9/9a/40/a99a408dc3379d585eae5631f7cb8a44.jpg" alt="">
                 </div>
                 <div class="trangchu img2">
-                    <img src="https://github.com/nguyentanhungg/anh/blob/main/15.jpg?raw=true" alt="">
+                    <img src="https://i.pinimg.com/564x/ba/0d/5a/ba0d5a8bb9274124508563ef49bf3a6d.jpg" alt="">
                 </div>
                 <div class="trangchu img2">
-                    <img src="https://github.com/nguyentanhungg/anh/blob/main/16.jpg?raw=true" alt="">
+                    <img src="https://i.pinimg.com/564x/7c/a0/2a/7ca02abc6375d0e838d96e021470810c.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -159,8 +188,8 @@
         <div id="footer">
             <div class="footer-logo">
                 <img src="https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" alt="">
-
             </div>
+            <img src="https://github.com/nguyentanhungg/anh/blob/main/QR_Nguy%E1%BB%85n%20T%E1%BA%A5n%20H%C6%B0ng.png?raw=true" class="qr" width="10%" alt="">
             <div class="links">
                 <a href=" https://www.facebook.com/TanHungOfficial2003/ " target="_blank"><i class='fab fa-facebook'></i></a>
                 <a href="https://www.instagram.com/darros_ne/" target="_blank"><i class='fab fa-instagram'></i></a>
@@ -172,6 +201,8 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
+
 </body>
 
 </html>

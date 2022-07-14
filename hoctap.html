@@ -10,6 +10,8 @@
     <link rel="icon" href="https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
 
 </head>
 
@@ -30,7 +32,7 @@
                 </ul>
             </nav>
             <!-- Search-->
-            <div class="icons">
+            <div class="icons-search">
                 <div class="fas fa-search" id="search-btn"></div>
             </div>
 
@@ -39,17 +41,39 @@
                 <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
         </div>
+        <div class="backgroud">
+            <div class="light-dark ">
+                <i class="btn fas fa-moon " data-color="#24292D #e4e6eb #24292D #edf10e #242526 "></i>
+            </div>
+            <div class="color-icon ">
+                <div class="icons ">
+                </div>
+                <div class="color-box ">
+                    <div class="color-switchers ">
+                        <button class="btn black active " data-color="#fff #101215 #dfe6e9 "></button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
-    <script src="script.js"></script>
     <!-- Text-->
     <slide>
-        <div class="banner">
-            <div class="banner-text">
-                <h1>Hi <i class='far fa-hand-peace'></i> I'm Darros</h1>
-                <p>I'm a Designer <i class="fa-solid fa-heart"></i></p>
-                <h1> <a href="#"><i class='far fa-hand-point-up'></i></a></h1>
-
+        <div id="banner">
+            <div id="slider">
+                <img class="slide" src="https://github.com/nguyentanhungg/anh/blob/main/222.jpg?raw=true" stt="0">
+                <img class="slide" src="https://github.com/nguyentanhungg/anh/blob/main/333.jpg?raw=true" stt="1" style="display: none;">
+                <img class="slide" src="https://github.com/nguyentanhungg/anh/blob/main/444.jpg?raw=true" stt="2" style="display: none;">
+                <img class="slide" src="https://github.com/nguyentanhungg/anh/blob/main/555.jpg?raw=true" stt="3" style="display: none;">
+                <img class="slide" src="https://github.com/nguyentanhungg/anh/blob/main/666.jpg?raw=true" stt="4" style="display: none;">
+                <a href=" # " id="prev"> <i class="fa-solid fa-angle-left"></i></a>
+                <a href=" # " id="next"> <i class="fa-solid fa-angle-right"></i></a>
+                <div class="text">
+                    <div class="text-1">Hi, I am</div>
+                    <div class="text-2">Darros</div>
+                    <div class="text-3">I am a <span class="text-slider"></span></div>
+                </div>
             </div>
+        </div>
     </slide>
     <!-- Section-->
     <section>
@@ -58,20 +82,67 @@
                 <img src="https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" alt="">
                 <h2>Học Tập </h2>
             </div>
+            <h3>Ngôn Ngữ Đang Học</h3>
             <div class="trangchu-box">
                 <div class="trangchu-text">
-                    <h3><i class='fab fa-python'></i> <a href="https://nguyentanhungg.github.io/camon?" target="_blank">Python</a></h3>
+                    <i class='fab fa-python'></i> <a href="https://nguyentanhungg.github.io/camon?" target="_blank">Python</a>
                 </div>
                 <div class="trangchu-text">
-                    <h3><i class='fab fa-html5'></i> <a href="https://nguyentanhungg.github.io/camon?" target="_blank">HTML</a></h3>
+                    <i class='fab fa-html5'></i> <a href="https://nguyentanhungg.github.io/camon?" target="_blank">HTML</a>
                 </div>
                 <div class="trangchu-text">
-                    <h3><i class='fab fa-css3-alt'></i> <a href="https://nguyentanhungg.github.io/camon?" target="_blank">CSS</a></h3>
+                    <i class='fab fa-css3-alt'></i> <a href="https://nguyentanhungg.github.io/camon?" target="_blank">CSS</a>
                 </div>
                 <div class="trangchu-text">
-                    <h3><i class='fab fa-js-square'></i> <a href="https://nguyentanhungg.github.io/camon?" target="_blank">JavaScript</a></h3>
+                    <i class='fab fa-js-square'></i> <a href="https://nguyentanhungg.github.io/camon?" target="_blank">JavaScript</a>
                 </div>
             </div>
+            <h3>Tiến Độ Học</h3>
+            <div class="max-width">
+                <div class="percent">
+                    <div class=" width">
+                        <div class="bars">
+                            <div class="info">
+                                <span>HTML</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="line html"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>CSS</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="line css"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>JavaScript</span>
+                                <span>30%</span>
+                            </div>
+                            <div class="line js"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Python</span>
+                                <span>30%</span>
+                            </div>
+                            <div class="line py"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Các Trang Hay Học</h3>
+            <div class="container">
+                <div class="image-container">
+                    <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS88pVvJZYLv-4KMAY4CxgLyk7yoCxcccizmkC6J5Xe17E4Y6O1cHfTstN5CA1tCNXds-w&usqp=CAU" alt=""></div>
+                    <div class="image"><img src="https://yt3.ggpht.com/ytc/AKedOLRR2uNiXJiFH-XRmtGgkdICxTuDJxCPJidKFRNCNg=s900-c-k-c0x00ffffff-no-rj" alt=""></div>
+                    <div class="image"><img src="https://f8.vercel.app/_next/static/media/f8_icon.fa5f0478.png" alt=""></div>
+                    <div class="image"><img src="https://github.com/nguyentanhungg/anh/blob/main/youtube.png?raw=true" alt=""></div>
+                    <div class="image"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1654845767617/RuHOJDaVPJ.png" alt=""></div>
+                </div>
+            </div>
+
         </div>
 
     </section>
@@ -82,6 +153,7 @@
                 <img src="https://github.com/nguyentanhungg/anh/blob/main/NTHHH.png?raw=true" alt="">
 
             </div>
+            <img src="https://github.com/nguyentanhungg/anh/blob/main/QR_Nguy%E1%BB%85n%20T%E1%BA%A5n%20H%C6%B0ng.png?raw=true" class="qr" width="10%" alt="">
             <div class="links">
                 <a href=" https://www.facebook.com/TanHungOfficial2003/ " target="_blank"><i class='fab fa-facebook'></i></a>
                 <a href="https://www.instagram.com/darros_ne/" target="_blank"><i class='fab fa-instagram'></i></a>
@@ -93,6 +165,8 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
