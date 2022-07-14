@@ -1,0 +1,44 @@
+/*--sectinon--*/
+
+#trangchu {
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.title-text {
+    padding-bottom: 70px
+}
+
+.title-text img {
+    margin: auto;
+    width: 10%;
+    padding-bottom: 40px;
+}
+
+.title-text h2 {
+    font-size: 60px;
+    font-family: 'Bangers';
+    color: tan;
+    padding-bottom: 50px;
+}
+
+.title-text p {
+    width: 900px;
+    margin: 0px auto;
+    font-size: 30px;
+}
+
+.title-text .anh {
+    width: 45%;
+    height: 450px;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 990px) {
+    .title-text p {
+        width: 800px;
+        font-size: 25px;
+    }
+}
