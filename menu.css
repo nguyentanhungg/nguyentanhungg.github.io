@@ -71,7 +71,7 @@ nav {
 
 nav #main-menu li {
     padding: 0 15px;
-    background: #000;
+    background: #dfe6e9;
 }
 
 nav #main-menu li a {
@@ -134,6 +134,9 @@ nav #main-menu a:hover:after {
     }
     nav {
         display: none;
+    }
+    nav #main-menu li {
+        background: #000;
     }
     nav #main-menu li a {
         padding: 15px 20px;
