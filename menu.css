@@ -113,6 +113,7 @@ nav #main-menu a:hover:after {
     #wrapper {
         text-align: left;
         height: 200px;
+        background: #000;
     }
     .logo {
         margin-top: -200px;
@@ -124,7 +125,7 @@ nav #main-menu a:hover:after {
         text-align: center;
     }
     #toggle {
-        clor: #fff;
+        color: #fff;
         display: block;
         font-size: 70px;
         margin-top: 30px;
