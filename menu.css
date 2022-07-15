@@ -71,7 +71,7 @@ nav {
 
 nav #main-menu li {
     padding: 0 15px;
-    background: #dfe6e9;
+    background: var(--nav-main);
 }
 
 nav #main-menu li a {
@@ -102,19 +102,23 @@ nav #main-menu a:hover:after {
 
 #toggle {
     display: none;
-    background-color: #dfe6e9;
-    color: tan;
-    text-align: right;
-    padding: 30px 100px 0px 0px;
     cursor: pointer;
-    font-size: 35px;
+}
+
+.bar {
+    display: block;
+    width: 70px;
+    height: 10px;
+    margin: 12px auto;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0, 3s ease-in-out;
+    background-color: var(--white);
 }
 
 @media screen and (max-width: 990px) {
     #wrapper {
         text-align: left;
-        height: 200px;
-        background: #000;
+        background: var(--black);
     }
     .logo {
         margin-top: -200px;
@@ -124,28 +128,43 @@ nav #main-menu a:hover:after {
     #main-menu {
         flex-direction: column;
         text-align: center;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        width: 100%;
+        transition: 0.3s;
+    }
+    #main-menu.active {
+        left: 0;
     }
     #toggle {
-        color: #fff;
+        color: var(--black);
         display: block;
-        font-size: 70px;
-        margin-top: 30px;
-        background: #000 ;
+        margin-top: 70px;
+        background: var(--black);
+    }
+    #toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    #toggle.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    #toggle.active .bar:nth-child(3) {
+        transform: translateY(-34px) rotate(-45deg);
     }
     nav {
         display: none;
     }
     nav #main-menu li {
-        background: #000;
+        background: var(--black);
     }
     nav #main-menu li a {
         padding: 15px 20px;
         font-family: 'Bangers';
         font-size: 27px;
         position: relative;
-        background: #000 ;
-        color: #fff;
-
+        background: var(--black);
+        color: var(--white);
     }
     nav #main-menu a::after {
         content: "";
@@ -221,9 +240,9 @@ nav #main-menu a:hover:after {
         top: 85px;
         position: fixed;
         font-size: 70px;
-        margin-top: -20px;
+        margin-top: -30px;
         margin-right: 230px;
-        color: #fff;
+        color: var(--white);
     }
 }
 
@@ -403,7 +422,7 @@ nav #main-menu a:hover:after {
     .backgroud .icons {
         font-size: 70px;
         right: 190px;
-        top: 65px;
-        color: #fff;
+        top: 55px;
+        color: var(--white);
     }
 }
