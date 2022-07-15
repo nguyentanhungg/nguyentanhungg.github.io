@@ -71,6 +71,7 @@ nav {
 
 nav #main-menu li {
     padding: 0 15px;
+    background: #000;
 }
 
 nav #main-menu li a {
