@@ -89,3 +89,10 @@ for (var button of buttons) {
         }
     });
 }
+const toggle = document.querySelector("#toggle");
+const mainMenu = document.querySelector("#main-menu");
+
+toggle.addEventListener("click", () => {
+    toggle.classList.toggle("active");
+    mainMenu.classList.toggle("active");
+})
